@@ -14,8 +14,9 @@ export const makeLastName = () => {
   } else {
     name = getSillyWord();
   }
+  name = maybeRemoveChar(name, '-', 75);
+  name = maybeRemoveChar(name, ' ', 65);
+  name = randomInt(99) > 25 ? name.toLowerCase() : name;
   name = lastNamePrefix() + makeFirstUpperCase(name);
-  name = maybeRemoveChar(name, '-', 25);
-  name = maybeRemoveChar(name, ' ', 35);
   return name;
 };

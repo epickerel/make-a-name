@@ -13,8 +13,9 @@ export const makeFirstName = () => {
   } else {
     name = getSillyWord();
   }
-  name = makeFirstUpperCase(name);
   name = maybeRemoveChar(name, '-', 75);
   name = maybeRemoveChar(name, ' ', 75);
+  name = randomInt(99) > 25 ? name.toLowerCase() : name;
+  name = makeFirstUpperCase(name);
   return name;
 };
