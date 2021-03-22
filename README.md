@@ -59,4 +59,4 @@ This uses multiple word libraries at random in addition to random syllable conca
 
 ### Credit
 
-While this is a work-in-progress, a lot of its fun comes from a fun little function written by [Peter Collingridge](https://www.petercollingridge.co.uk).
+While this is a work-in-progress, a lot of its magic comes from a fun little function written by [Peter Collingridge](https://www.petercollingridge.co.uk).
